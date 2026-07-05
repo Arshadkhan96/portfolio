@@ -21,6 +21,26 @@ export const projects = [
     live: "#",
   },
   {
+      title: "Movie Admin Dashboard",
+      image: "/Admin.png",
+
+      description:
+        "Full-featured movie booking admin panel with movie management, showtime scheduling, seat pricing, cast/director management, and booking control.",
+
+      category: "Full Stack",
+      tech: [
+        "React",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Cloudinary"
+      ],
+
+      github: "https://github.com/Arshadkhan96/Movie-Booking/tree/main/admin",
+      live: "https://movie-admin-panel.netlify.app",
+    },
+  {
     title: "PDF Chat Assistant (RAG)",
     image: "/nexaAi.png",
     description:
@@ -57,5 +77,28 @@ export const projects = [
   "tech": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Google Maps API"],
   "github": "https://github.com/Arshadkhan96/fineCarpenter-web",
   "live": "https://finecarpenter-web.vercel.app"
-}
+},
+{
+  title: "CineVerse - Movie Ticket Booking Platform",
+  image: "/cineverse.png",
+
+  description:
+    "Full-stack movie ticket booking platform with secure authentication, real-time seat booking, online payment integration, booking history, and responsive user experience.",
+
+  category: "Full Stack",
+
+  tech: [
+    "React",
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Stripe"
+  ],
+
+  github: "https://github.com/Arshadkhan96/Movie-Booking/tree/main/Frontend",
+  live: "https://cine-ticket-hub.netlify.app",
+},
 ];
